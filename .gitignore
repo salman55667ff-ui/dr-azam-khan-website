@@ -1,0 +1,65 @@
+﻿# DR AZAM KHAN WEBSITE - GITIGNORE
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Database / patient data
+*.db
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+*.bak
+*.backup
+
+# Node.js / React / Vite
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+.vs/
+
+# Operating system
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Uploads / generated files
+uploads/
+generated/
+**/uploads/
+**/generated/
