@@ -1,0 +1,8 @@
+﻿fastapi
+uvicorn[standard]
+sqlalchemy
+aiosqlite
+pydantic
+python-dotenv
+passlib[bcrypt]
+python-multipart
